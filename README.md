@@ -49,7 +49,7 @@ dataset.to_csv(os.path.join(file_path,'redditscrap5.csv'),encoding='utf-8-sig',i
 
 Although the sample is large enough never forget that this is sampling a very large “population” in order to make inferences on the nature of the population. Let see how is the probability density of the target variable (number of comments) looks like:
 
-![Alt text](C:\Users\moisessalazar77\Pictures\proj3hist.png?raw=true "Title")
+![proj3hist.png](proj3hist.png)
 
 
 
