@@ -76,7 +76,7 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 
 # License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE.md file](LICENSE.md) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 # Acknowledgments
 •	Although NLP seems it didn’t work for this specific instance, is something to keep exploring in the future.
