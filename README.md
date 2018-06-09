@@ -84,7 +84,7 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 # Acknowledgments
 •	Although NLP seems it didn’t work for this specific instance, is something to keep exploring in the future.
 
-•	For a more explanations refer to the power point presentation [Reddit Comments Classification Project.pptx](Reddit Comments Classification Project.pptx) on the repo.
+•	For a more explanations refer to the power point presentation [Reddit Comments Classification Project.pptx](https://github.com/Salazar-AI-Associates/Reddit-web-scrapping-project/blob/master/Reddit%20Comments%20Classification%20Project.pptx) on the repo.
 
 •	This was a student project, but it has the potential to be commercial tool with some modifications. See the Jupyter notebook   [reddit_post_growth_project](reddit_post_growth_project.ipynb) for more details.
 
