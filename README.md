@@ -83,6 +83,6 @@ This project is licensed under the Apache 2.0 License - see the LICENSE.md file 
 
 •	For a more explanations refer to the power point presentation on the repo.
 
-•	This was a student project, but it has potential to be commercial tool with some modifications. See the Jupyter notebook   [a relative link](reddit_post_growth_project.ipynb) for more details.
+•	This was a student project, but it has potential to be commercial tool with some modifications. See the Jupyter notebook   [reddit_post_growth_project](reddit_post_growth_project.ipynb) for more details.
 
 
