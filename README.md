@@ -68,3 +68,18 @@ The only difference between the models was the features employed, both models ar
 
 ![barmodels.png](barmodels.png)
 
+It is clear the model one outperformed model two.
+
+# Versioning
+
+We use SemVer for versioning. For the versions available, see the tags on this repository..
+
+#License
+This project is licensed under the Apache 2.0 License - see the LICENSE.md file for details.
+
+# Acknowledgments
+•	Although NLP seems it didn’t work for this specific instance, is something to keep exploring in the future.
+•	For a more explanations refer to the power point presentation on the repo
+•	This was a student project, but it has potential to be commercial tool with some modifications. See the Jupyter notebook for more details.
+
+
