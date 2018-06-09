@@ -5,7 +5,7 @@
 The focus of this project is to predict if a reddit post will be above or below of a certain meaningful statistic. In essence is a regression problem but for the sake of simplicity it has been reduced to a classification problem. What kind of insight can be derived from this approach?
 
 # First step: Web scrapping
-First things first, I started by exploring the web site(reddit) with my browser (google chrome). After a breve exploration, I created functions to extract what will be the features of my dataset. A snippet of code one of those function looks like this:
+First things first, I started by exploring the web site(reddit) with my browser (google chrome). After a breve exploration, I created functions to extract what will be the features of my dataset. A snippet of code for one of those function looks like this:
 ```
 def extract_subreddit_from_result(result):
     a=result.find('a',{'class':"subreddit hover may-blank"})
@@ -83,6 +83,6 @@ This project is licensed under the Apache 2.0 License - see the LICENSE.md file 
 
 •	For a more explanations refer to the power point presentation on the repo.
 
-•	This was a student project, but it has potential to be commercial tool with some modifications. See the Jupyter notebook for more details.
+•	This was a student project, but it has potential to be commercial tool with some modifications. See the Jupyter notebook   [a relative link](reddit_post_growth_project.ipynb) for more details.
 
 
