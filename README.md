@@ -66,5 +66,5 @@ Model two has additional features, all of them derived from NPL.
 # Comparing models
 The only difference between the models was the features employed, both models are random forest which were tuned and cross validated as well.
 
-![barmodel.png](barmodel.png)
+![barmodels.png](barmodels.png)
 
