@@ -70,8 +70,8 @@ The only difference between the models was the features employed, both models ar
 
 ![barmodels.png](barmodels.png)
 
-It is clear the model one outperformed model two. But both models performe better that a baseline statitic and that
-is greater that a coin flip probability!
+It is clear the model one outperformed model two. But both models performe better that a baseline statistic and that
+is greater that the success problability of a coin flip!
 
 # Versioning
 
@@ -84,7 +84,7 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 # Acknowledgments
 •	Although NLP seems it didn’t work for this specific instance, is something to keep exploring in the future.
 
-•	For a more explanations refer to the power point presentation on the repo.
+•	For a more explanations refer to the power point presentation [Reddit Comments Classification Project.pptx](Reddit Comments Classification Project.pptx) on the repo.
 
 •	This was a student project, but it has the potential to be commercial tool with some modifications. See the Jupyter notebook   [reddit_post_growth_project](reddit_post_growth_project.ipynb) for more details.
 
