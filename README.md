@@ -1,6 +1,6 @@
 # Predicting growth rate of reddit post.
 
-# Introduction:
+# Introduction
 
 The focus of this project is to predict if a reddit post will be above or below of a certain meaningful statistic. In essence is a regression problem but for the sake of simplicity it has been reduced to a classification program. What of insight can be derived from this approach?
 First step: Web scrapping:
@@ -45,11 +45,15 @@ import os
 file_path='C:\\Users\\mypath'   
 dataset.to_csv(os.path.join(file_path,'redditscrap5.csv'),encoding='utf-8-sig',index=False)                                                                     ```
 
-# Start the EDA process:
+# Start the EDA process
 
 Although the sample is large enough never forget that this is sampling a very large “population” in order to make inferences on the nature of the population. Let see how is the probability density of the target variable (number of comments) looks like:
 
 ![proj3hist.png](proj3hist.png)
 
+# Information obtained through EDA
+
+Large range of the target variable, going from 2 comments up to 2000 and more comments. 
+The splitting statistic choose was the geometric mean, which is at measuring of compounding factors and growth acceleration.
 
 
