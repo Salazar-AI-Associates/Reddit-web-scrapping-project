@@ -60,10 +60,11 @@ The splitting statistic choose was the geometric mean, which is at measuring of 
 
 # Building models 
 Model one was constructed using only the subreddit and time since posted.
+
 Model two has additional features, all of them derived from NPL.
 
 # Comparing models
 The only difference between the models was the features employed, both models are random forest which were tuned and cross validated as well.
 
-
+![barmodel.png](barmodel.png)
 
