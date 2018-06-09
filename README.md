@@ -41,10 +41,12 @@ dataset=pd.DataFrame(data)
 dataset.head(8) 
 ```
 # Saving your data
-After a successful run the next step will be saving the dataset.                                                                                                                                                                                                                                   ```
+After a successful run the next step will be saving the dataset.
+```
 import os                                                                       
 file_path='C:\\Users\\mypath'   
-dataset.to_csv(os.path.join(file_path,'redditscrap5.csv'),encoding='utf-8-sig',index=False)                                                                     ```
+dataset.to_csv(os.path.join(file_path,'redditscrap5.csv'),encoding='utf-8-sig',index=False)   
+```
 
 # Start the EDA process
 
@@ -83,6 +85,6 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 •	For a more explanations refer to the power point presentation on the repo.
 
-•	This was a student project, but it has potential to be commercial tool with some modifications. See the Jupyter notebook   [reddit_post_growth_project](reddit_post_growth_project.ipynb) for more details.
+•	This was a student project, but it has the potential to be commercial tool with some modifications. See the Jupyter notebook   [reddit_post_growth_project](reddit_post_growth_project.ipynb) for more details.
 
 
