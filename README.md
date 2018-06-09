@@ -37,5 +37,16 @@ for n in range(0,max_resluts):
         counter += 1
     time.sleep(3)
 dataset=pd.DataFrame(data)
-dataset.head(8) ```
+dataset.head(8) 
+```
+Saving your data
+After a successful run the next step will be saving the dataset.                                                                       ```                                                                                                                                                            import os                                                                       
+file_path='C:\\Users\\mypath'   
+dataset.to_csv(os.path.join(file_path,'redditscrap5.csv'),encoding='utf-8-sig',index=False)                                                                     ```
+# Start the EDA process:
+
+Although the sample is large enough never forget that this is sampling a very large “population” in order to make inferences on the nature of the population. Let see how is the probability density of the target variable ((number of comments) looks like:
+
+
+
 
