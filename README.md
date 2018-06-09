@@ -18,4 +18,24 @@ counter = 0
 url="http://www.reddit.com"
 data={'title':[],'submitted':[],'comments':[],'subreddit':[]}
 for n in range(0,max_resluts):
+#     print(response.status_code)
+    if response.status_code==200:    
+        html=response.text
+        soup = BeautifulSoup(html,'lxml')        
+        for item in soup.find_all('div',{'class':"top-matter"}):
+            data['title'].append(extract_title_from_result(item) )
+            data['submitted'].append(extract_submitted_from_result(item) )
+            data['comments'].append(extract_comments_from_result(item) )
+            data['subreddit'].append(extract_subreddit_from_result(item))
+        
+        url=get_next_url(soup)
+        if(len(data['title'])%100  == 0):
+            print('now have',len(data['title']),'rows')
+    else:
+        if(counter % 10 == 0):
+            print(counter,'failed attempts')
+        counter += 1
+    time.sleep(3)
+dataset=pd.DataFrame(data)
+dataset.head(8) ```
 
