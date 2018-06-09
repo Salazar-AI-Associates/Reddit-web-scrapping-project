@@ -1,6 +1,6 @@
-# Reddit-web-scrapping-project
 # Predicting growth rate of reddit post.
-#Introduction:
+
+# Introduction:
 
 The focus of this project is to predict if a reddit post will be above or below of a certain meaningful statistic. In essence is a regression problem but for the sake of simplicity it has been reduced to a classification program. What of insight can be derived from this approach?
 First step: Web scrapping:
