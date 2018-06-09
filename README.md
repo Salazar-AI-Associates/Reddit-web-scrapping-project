@@ -70,7 +70,8 @@ The only difference between the models was the features employed, both models ar
 
 ![barmodels.png](barmodels.png)
 
-It is clear the model one outperformed model two.
+It is clear the model one outperformed model two. But both models performe better that a baseline statitic and that
+is greater that a coin flip probability!
 
 # Versioning
 
