@@ -54,6 +54,7 @@ Although the sample is large enough never forget that this is sampling a very la
 # Information obtained through EDA
 
 Large range of the target variable, going from 2 comments up to 2000 and more comments. 
+
 The splitting statistic choose was the geometric mean, which is at measuring of compounding factors and growth acceleration.
 
 
