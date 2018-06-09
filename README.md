@@ -12,7 +12,7 @@ def extract_subreddit_from_result(result):
 ```
 Before to proceed to the actual web scrapping make sure to read the site ToS (terms of service) to avoid denial of service or unresponsiveness, due in part because the site may take the web scrapping as an attack on the site. Also look for additional resources like APIs or AWS wrappers. After you make sure the you that you code won’t be see as an attack you can run the code. The code I use to extract the data was the following:
 ```
- import time
+import time
 max_resluts=1000
 counter = 0
 url="http://www.reddit.com"
@@ -39,10 +39,12 @@ for n in range(0,max_resluts):
 dataset=pd.DataFrame(data)
 dataset.head(8) 
 ```
-Saving your data
-After a successful run the next step will be saving the dataset.                                                                       ```                                                                                                                                                            import os                                                                       
+# Saving your data
+After a successful run the next step will be saving the dataset.                                                                                                                                                                                                                                   ```
+import os                                                                       
 file_path='C:\\Users\\mypath'   
 dataset.to_csv(os.path.join(file_path,'redditscrap5.csv'),encoding='utf-8-sig',index=False)                                                                     ```
+
 # Start the EDA process:
 
 Although the sample is large enough never forget that this is sampling a very large “population” in order to make inferences on the nature of the population. Let see how is the probability density of the target variable ((number of comments) looks like:
