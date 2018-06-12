@@ -70,8 +70,8 @@ The only difference between the models was the features employed, both models ar
 
 ![barmodels.png](barmodels.png)
 
-It is clear the model one outperformed model two. But both models performe better that a baseline statistic and that
-is greater that the success problability of a coin flip!
+It is clear the model one outperformed model two. But both models performance is better that a baseline statistic and that
+is greater that the success probability of a coin flip!
 
 # Versioning
 
