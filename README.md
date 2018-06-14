@@ -73,10 +73,6 @@ The only difference between the models was the features employed, both models ar
 It is clear the model one outperformed model two. But both models performance is better that a baseline statistic and that
 is greater that the success probability of a coin flip!
 
-# Versioning
-
-We use SemVer for versioning. For the versions available, see the tags on this repository..
-
 # License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
